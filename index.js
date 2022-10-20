@@ -5,7 +5,11 @@ let explositon = document.getElementById("cracker");
 let house = document.getElementById('house');
 let firework = document.getElementById('firework');
 let soundeffect = document.getElementById('music');
-let cough = document.getElementById('cough')
+let cough = document.getElementById('cough');
+let dance = document.getElementById('dance');
+let prayer = document.getElementById('prayer');
+
+
 
 oofsnd.addEventListener('click', e => {
     let audio = new Audio('Oof.mp3');
@@ -45,5 +49,15 @@ house.addEventListener('click', e => {
 
 soundeffect.addEventListener('click', e => {
     let audio = new Audio('sedlif.mp3');
+    audio.play();
+});
+
+prayer.addEventListener('click', e => {
+    let audio = new Audio('prayer.mp3');
+    audio.play();
+});
+
+dance.addEventListener('click', e => {
+    let audio = new Audio('diwali.mp3');
     audio.play();
 });
