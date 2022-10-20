@@ -44,7 +44,7 @@ document.getElementById('doorbell').addEventListener('click', e => {
 });
 
 house.addEventListener('click', e => {
-    window.open("img.html")
+    window.open("https://wallpaperaccess.com/full/1700222.jpg")
 });
 
 soundeffect.addEventListener('click', e => {
